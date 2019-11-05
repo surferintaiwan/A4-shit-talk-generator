@@ -1,0 +1,36 @@
+<h1 class="text-center text-primary">你想對誰說幹話?</h1>
+
+<!-- character choice -->
+<section class="container mt-4">
+    <form method="POST" action="/" class="row">
+        <div class="form-check col-4 text-center">
+            <div class="img-height">
+                <img class="rounded img-thumbnail align-middle" src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg" alt="angry-developer">
+            </div>
+            <input class="form-check-input mt-2" type="radio" name="target" id="engineer" value="engineer" {{#if character.engineer}} checked {{/if}}>
+            <label class="form-check-label ml-2" for="engineer">
+                <h3>工程師</h3>
+            </label>
+        </div>
+        <div class="form-check col-4 text-center">
+            <div class="img-height">
+                <img class="rounded img-thumbnail" src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg" alt="angry-developer">
+            </div>
+            <input class="form-check-input mt-2 mr-2" type="radio" name="target" id="designer" value="designer" {{#if character.designer}} checked {{/if}}>
+            <label class="form-check-label ml-2" for="designer">
+                <h3>設計師</h3>
+            </label>
+        </div>
+        <div class="form-check col-4 text-center">
+            <div class="img-height">
+                <img class="rounded img-thumbnail" src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg" alt="angry-developer">
+            </div>
+            <input class="form-check-input mt-2 mr-2" type="radio" name="target" id="entrepreneur" value="entrepreneur" {{#if character.entrepreneur}} checked {{/if}}>
+            <label class="form-check-label ml-2" for="entrepreneur">
+                <h3>創業家</h3>
+            </label>
+        </div>
+            <button type="submit" class="btn btn-primary col-3 ml-2 mr-4">產生幹話</button>
+            <div class="border border-secondary col-8 ml-4">{{{shitTalk}}}</div>
+    </form>  
+</section>

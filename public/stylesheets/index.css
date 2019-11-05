@@ -1,0 +1,14 @@
+button {
+    height: 100px
+}
+
+input {
+    width: 20px;
+    height: 20px;
+}
+
+.img-height {
+    height: 285px;
+    display: flex;
+    align-items: center;
+}
