@@ -24,7 +24,7 @@ npm install
 ```
 nodemon app.js
 ```
-5. 於瀏覽器輸入 [http://localhost:3000/](http://localhost:3000/) 即可開始使用建立於本地端之餐廳網站
+5. 於瀏覽器輸入 [http://localhost:3000/](http://localhost:3000/) 即可開始使用建立於本地端之幹話產生器網站
 
 6. 若欲停止伺服器運行，可於終端機輸入Ctrl + C ，即可停用伺服器
 
