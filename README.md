@@ -1,6 +1,9 @@
 # 幹話產生器
 使用者只需要選擇角色，即可自動產生出符合該角色背景的幹話!
 
+## 網站截圖
+![網站截圖](https://github.com/surferintaiwan/A4-shit-talk-generator/blob/master/screeshot%20of%20website.png?raw=true)
+
 ## 功能說明
 1. 可以選擇任一個角色(工程師、設計師、創業家)，並按下"產生幹話"，即可產出一段敘述文字
 2. 若未選擇任一個角色，直接按"產生幹話"，則會有紅色警示文字出現
